@@ -2,6 +2,8 @@
 
 Esta é uma extensão simples para o Google Chrome que permite preencher automaticamente um campo de entrada em um site específico.
 
+Uma demonstração em vídeo passo a passo pode ser encontrada aqui: https://youtu.be/ZLgjbHRX8DI
+
 ## Como Usar
 
 1. Faça o download ou clone este repositório.
