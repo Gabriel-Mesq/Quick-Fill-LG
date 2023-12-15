@@ -1,4 +1,4 @@
-# AutoFill Extension
+# Quick Fill LG Extension
 
 Esta é uma extensão simples para o Google Chrome que permite preencher automaticamente um campo de entrada em um site específico.
 
