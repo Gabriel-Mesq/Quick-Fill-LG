@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quick Fill LG Extension</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      padding: 20px;
+      background-color: #2c3e50; /* Fundo mais escuro */
+      color: #ecf0f1; /* Texto mais claro */
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input {
+      width: 200px;
+      padding: 8px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+    }
+    button {
+      background-color: #3498db; /* Azul mais claro */
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-bottom: 16px;
+    }
+    button:hover {
+      background-color: #2980b9; /* Azul mais escuro ao passar o mouse */
+    }
+    .credits {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #95a5a6; /* Cor mais clara para os créditos */
+    }
+    .credits a {
+      color: #3498db; /* Cor do link ajustada */
+      text-decoration: none;
+    }
+    .credits a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Quick Fill LG</h1>
+  <label for="valorInput">Insira seu email LG:</label>
+  <input type="text" id="valorInput" placeholder="seuemail@lg.com.br">
+  <button id="fillButton">Inserir</button>
+  <div class="credits">
+    <p>Desenvolvido por <a href="https://github.com/Gabriel-Mesq" target="_blank">Gabriel Mesquita</a></p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

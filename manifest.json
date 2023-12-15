@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "QuickFillLG",
+    "version": "1.0",
+    "description": "Preenche automaticamente o campo de login da vm-ngdev.",
+    "permissions": [
+      "activeTab",
+      "storage"
+    ],
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://vm-ngdev-01.lggo.com.br/login/"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
